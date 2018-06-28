@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HC Project 3</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Ranchers|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link href="styles/square/blue.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- HEADER STARTS -->
+        <header class="animated bounceInDown">
+            <div class="titleImg img0">
+                <img src="assets/smartphone.png" alt="mockup of a smartphone">
+            </div>
+            <div class="titleImg img1">
+                <img src="assets/comp.png" alt="mockup of a desktop computer">
+            </div>
+            <h1>Accessible Essentials Website Quiz!</h1>
+            <div class="titleImg img2">
+                <img src="assets/audio.png" alt="mockup of a audio speaker symbol">
+            </div>
+            <div class="titleImg img3">
+                <img src="assets/keyboard.png" alt="mockup of a keyboard">
+            </div>
+        </header>
+        <!-- HEADER ENDS -->
+        <!-- MAIN CONTENT BEGINS -->
+        <main>
+            <!-- HOMESCREEN CONTENT DIV -->
+            <div class="contentContainer homeScreen animated bounceInLeft display">
+                <h2>Welcome to the <span class="accent">Accessible Essentials</span> Quiz!</h2>
+                <p class="description">Click below to begin a short quiz to find out how mindful you are of accessibility when coding your websites! </p>
+                <p class="description"><strong>Be honest with yourself</strong>- everyone has room for improvement and there is no time like the present to get started on learning about accessible web design. After all, we want as many users enjoying the content as possible!</p>
+                <button type="button" class="homeButton">Start Quiz</button>
+            </div>
+            <!-- HOMESCREEN ENDS -->
+            <!-- SECOND CONTENT DIV: QUIZ SCREEN -->
+            <div class="contentContainer quizScreen animated bounceInLeft">
+                <form action="#" class="quizForm">
+                    <h2>Please answer the following with the question in mind: <em>When you make your websites...</em></h2>
+                    <fieldset class="question1">
+                        <p class="question">Do you declare the language attribute in the opening 'html' tag of your HTML document so the screen reader knows the correct pronounciation of the page elements?</p>
+                        <div class="answers">
+                            <div class="answer first">
+                                <input type="radio" name="answerOne" value="2" id="yes1">
+                                <label for="yes1">Yes, of course!</label>
+                            </div>
+                            <div class="answer second">
+                                <input type="radio" name="answerOne" value="1" id="no1">
+                                <label for="no1">No I don't need that.</label>
+                            </div>
+                            <div class="answer third">
+                                <input type="radio" name="answerOne" value="0" id="dontknow1">
+                                <label for="dontknow1">The what tag?</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="question2">
+                        <p class="question">Is there consistently descriptive alt-text included with each image element?</p>
+                        <div class="answers">
+                            <div class="answer first">
+                                <input type="radio" name="answerTwo" value="2" id="yes2">
+                                <label for="yes2">Yes, it's like a story!</label>
+                            </div>
+                            <div class="answer two">
+                                <input type="radio" name="answerTwo" value="1" id="no2">
+                                <label for="no2">Define descriptive?</label>
+                            </div>
+                            <div class="answer third">
+                                <input type="radio" name="answerTwo" value="0" id="dontknow2">
+                                <label for="dontknow2">What's alt-text?</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="question3">
+                        <p class="question">How often do you use the :focus pseudoselector on elements that have a :hover state to make sure users navigating with their keyboards know what element is in focus?</p>
+                        <div class="answers">
+                            <div class="answer first">
+                                <input type="radio" name="answerThree" value="2" id="yes3">
+                                <label for="yes3">Everytime!</label>
+                            </div>
+                            <div class="answer second">
+                                <input type="radio" name="answerThree" value="1" id="no3">
+                                <label for="no3">Sometimes, definitely maybe.</label>
+                            </div>
+                            <div class="answer third">
+                                <input type="radio" name="answerThree" value="0" id="dontknow3">
+                                <label for="dontknow3">Focus pocus.</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="question4">
+                        <p class="question">How concious are you of text-background contrasts? Do you make sure that your aesthetically pleasing colour choices are also readable?</p>
+                        <div class="answers">
+                            <div class="answer first">
+                                <input type="radio" name="answerFour" value="2" id="yes4">
+                                <label for="yes4">Very concious, I want people to be able to see the content!</label>
+                            </div>
+                            <div class="answer second">
+                                <input type="radio" name="answerFour" value="1" id="no4">
+                                <label for="no4">Not very- aesthetics are very important to me.</label>
+                            </div>
+                            <div class="answer third">
+                                <input type="radio" name="answerFour" value="0" id="dontknow4">
+                                <label for="dontknow4">I've never thought of that before.</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="question5">
+                        <p class="question">Do you include a "skip to main content" link as one of the first elements of your page so that users are able to avoid tabbing through, or listening to, lengthy navigations or decorative header content?</p>
+                        <div class="answers">
+                            <div class="answer first">
+                                <input type="radio" name="answerFive" value="2" id="yes5">
+                                <label for="yes5">Yes, of course!</label>
+                            </div>
+                            <div class="answer second">
+                                <input type="radio" name="answerFive" value="1" id="no5">
+                                <label for="no5">No, not usually.</label>
+                            </div>
+                            <div class="answer third">
+                                <input type="radio" name="answerFive" value="0" id="dontknow5">
+                                <label for="dontknow5">I'm not sure...</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <input type="submit" id="submit" value="Submit Quiz">
+                </form>
+            </div>
+            <!-- QUIZ SCREEN DIV ENDS -->
+            <!-- RESULTS SCREEN DIV STARTS -->
+            <!-- empty div to display dynamic results message -->
+            <div class="contentContainer resultsScreen animated bounceInLeft">
+            </div>
+            <!-- RESULTS SCREEN DIV ENDS -->
+        </main>
+        <!-- MAIN CONTENT AKA CONTENT DIVS END -->
+        <!-- FOOTER STARTS -->
+        <footer>
+            <div class="socialLinks">
+                <ul>
+                    <li>
+                        <a href="https://twitter.com/HannahCrump5" aria-label="Go to author's Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/hanniC5/Project3-AccessibilityQuiz/tree/master/hannah_crump_project3" aria-label="Visit author's Github"><i class="fab fa-github"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="Test if your website has basic accessibility with the Accessible Essentials Quiz!" data-url="https://github.com/hanniC5/Project3-AccessibilityQuiz" data-via="HannahCrump5" data-lang="en" data-show-count="false">Tweet</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2018 Hannah Crump </p>
+            </div>
+        </footer>
+        <!-- FOOTER ENDS -->
+    </div> <!-- wrapper -->
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='crossorigin='anonymous'></script>
+    <script src="scripts/icheck.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
